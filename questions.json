@@ -1,0 +1,511 @@
+[
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Fontes do direito",
+    "question": "Qual é a fonte principal do direito no Brasil?",
+    "answer": "Lei"
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Fontes do direito",
+    "question": "Qual fonte do direito vem das práticas da sociedade, como no caso do adultério, que deixou de ser crime?",
+    "answer": "Costumes"
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Fontes do direito",
+    "question": "Qual fonte do direito corresponde às decisões dos tribunais aplicadas em casos concretos?",
+    "answer": "Jurisprudência"
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Fontes do direito",
+    "question": "Teorias criadas por juristas, que influenciam novas leis e ajudam a convencer o juiz, formam qual fonte do direito?",
+    "answer": "Doutrina"
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Unidade do direito",
+    "question": "Quantos direitos existem em uma sociedade?",
+    "answer": "Apenas um",
+    "wrongAnswers": ["Um para cada ramo", "Um para cada estado da federação", "Depende do número de leis"]
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Unidade do direito",
+    "question": "O que são o direito criminal e o direito digital em relação ao direito?",
+    "answer": "Ramos de um único direito",
+    "wrongAnswers": ["Raízes do direito", "Direitos independentes entre si", "Fontes do direito"]
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Sistemas jurídicos",
+    "question": "Qual sistema jurídico o Brasil adota?",
+    "answer": "Civil law",
+    "wrongAnswers": ["Common law", "Uma mistura de civil law e common law"]
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Sistemas jurídicos",
+    "question": "No common law, qual é a raiz principal?",
+    "answer": "Os costumes e as decisões dos tribunais",
+    "wrongAnswers": ["A lei escrita", "A doutrina dos juristas", "A Constituição"]
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Estado-nação",
+    "question": "Povo + cultura + território formam o quê?",
+    "answer": "Nação",
+    "wrongAnswers": ["Estado-nação", "República", "Federação"]
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Estado-nação",
+    "question": "Nação + governo formam o quê?",
+    "answer": "Estado-nação",
+    "wrongAnswers": ["Nação", "República", "Federação"]
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Democracia",
+    "question": "Qual o significado de democracia?",
+    "answer": "Governo do povo",
+    "wrongAnswers": ["Governo dos sábios", "Governo da lei", "Governo de poucos"]
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Democracia",
+    "question": "Como o Brasil é classificado?",
+    "answer": "Estado democrático de direito",
+    "wrongAnswers": ["Monarquia constitucional", "Estado unitário", "Democracia direta"]
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Três poderes",
+    "question": "Qual poder é o 'operador', aquele que executa?",
+    "answer": "Executivo"
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Três poderes",
+    "question": "Qual poder é responsável por criar as leis?",
+    "answer": "Legislativo"
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Três poderes",
+    "question": "Qual poder julga os problemas da sociedade com base na lei?",
+    "answer": "Judiciário"
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Três poderes",
+    "question": "Em qual poder a sociedade NÃO escolhe os representantes?",
+    "answer": "Judiciário"
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Entes federativos",
+    "question": "Qual ente federativo olha o Brasil como um todo?",
+    "answer": "União"
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Entes federativos",
+    "question": "Qual ente federativo só vê o que acontece dentro do seu próprio estado?",
+    "answer": "Estados"
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Entes federativos",
+    "question": "Qual ente federativo é o mais próximo do cidadão, com subprefeituras para cada região?",
+    "answer": "Municípios"
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Representantes dos entes",
+    "question": "Quem representa a União?",
+    "answer": "Presidente da República"
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Representantes dos entes",
+    "question": "Quem representa os Estados?",
+    "answer": "Governador"
+  },
+  {
+    "lesson": "Fundamentos do Direito",
+    "topic": "Representantes dos entes",
+    "question": "Quem representa os Municípios?",
+    "answer": "Prefeito"
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Magna Carta",
+    "question": "Em que ano foi a Magna Carta, marco dos direitos individuais?",
+    "answer": "1215",
+    "wrongAnswers": ["1789", "1500", "1988"]
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Gerações de direitos",
+    "question": "O direito de ir e vir pertence a qual geração de direitos?",
+    "answer": "1ª geração: direitos de liberdade ou individuais"
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Gerações de direitos",
+    "question": "Trabalho, educação, moradia, transporte e segurança pertencem a qual geração?",
+    "answer": "2ª geração: direitos sociais"
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Gerações de direitos",
+    "question": "Cuidar do meio ambiente pensando nas gerações futuras pertence a qual geração?",
+    "answer": "3ª geração: direitos coletivos ou difusos"
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Gerações de direitos",
+    "question": "Ver o ser humano no mundo, e não dividido em territórios, o que pode limitar a soberania nacional, pertence a qual geração?",
+    "answer": "4ª geração: direitos transnacionais e informacionais"
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Teoria das esferas",
+    "question": "Pela teoria das esferas, o que é aquilo que você não expõe a todos o tempo todo, mas que em algum momento pode ser exigido?",
+    "answer": "Privacidade",
+    "wrongAnswers": ["Intimidade", "Publicidade", "Confidencialidade"]
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Teoria das esferas",
+    "question": "Pela teoria das esferas, o que é aquilo que você faz sem ninguém saber e que ninguém pode saber?",
+    "answer": "Intimidade",
+    "wrongAnswers": ["Privacidade", "Publicidade", "Confidencialidade"]
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Segurança da informação",
+    "question": "Qual pilar da segurança da informação garante que não houve interferência na informação?",
+    "answer": "Integridade",
+    "wrongAnswers": ["Autenticidade", "Confidencialidade", "Disponibilidade"]
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Segurança da informação",
+    "question": "Qual pilar da segurança da informação garante saber quem é o emissor?",
+    "answer": "Autenticidade",
+    "wrongAnswers": ["Integridade", "Confidencialidade", "Disponibilidade"]
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Princípios do direito digital",
+    "question": "Qual organização faz a cooperação para que a internet esteja disponível em todos os países?",
+    "answer": "ICANN",
+    "wrongAnswers": ["ONU", "OMC", "W3C"]
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Princípios do direito digital",
+    "question": "Pelos princípios do direito, como o Estado precisa ser?",
+    "answer": "Transparente e democrático",
+    "wrongAnswers": ["Neutro e sigiloso", "Autoritário e eficiente", "Mínimo e privado"]
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Princípios do direito digital",
+    "question": "O que é identidade reflexa?",
+    "answer": "A ideia de que o mundo virtual é um espelho do mundo físico",
+    "wrongAnswers": ["Ter dois documentos de identidade", "Usar um apelido nas redes sociais", "A proteção dos dados pessoais pelo Estado"]
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Floridi",
+    "question": "Segundo Luciano Floridi, em qual período somos dependentes das nossas ferramentas?",
+    "answer": "Período hiper-histórico",
+    "wrongAnswers": ["Período histórico", "Período pré-histórico", "Período pós-industrial"]
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Floridi",
+    "question": "Segundo Floridi, nosso espaço não é mais a Terra. Onde vivemos agora?",
+    "answer": "Na infoesfera",
+    "wrongAnswers": ["Na biosfera", "Na geosfera", "Na noosfera"]
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Desafios atuais",
+    "question": "Big techs concentrando todas as nossas informações é qual desafio atual?",
+    "answer": "Concentração econômica"
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Desafios atuais",
+    "question": "A internet não respeitar os limites entre países é qual desafio atual?",
+    "answer": "Inexistência de fronteiras"
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Desafios atuais",
+    "question": "Algoritmos moldando o que vemos e como agimos é qual desafio atual?",
+    "answer": "Cultura algorítmica"
+  },
+  {
+    "lesson": "Direitos Fundamentais",
+    "topic": "Hierarquia das normas",
+    "question": "Qual é a lei máxima do país?",
+    "answer": "Constituição",
+    "wrongAnswers": ["Lei infraconstitucional", "Norma infralegal", "Código Civil"]
+  },
+  {
+    "lesson": "Direito Civil e ECA",
+    "topic": "Pessoa natural",
+    "question": "Pessoa natural é o mesmo que:",
+    "answer": "Pessoa física",
+    "wrongAnswers": ["Pessoa jurídica", "Empresário", "Cidadão"]
+  },
+  {
+    "lesson": "Direito Civil e ECA",
+    "topic": "Pessoa natural",
+    "question": "No Brasil, quando surge a pessoa natural?",
+    "answer": "Quando o ser humano nasce com vida",
+    "wrongAnswers": ["Na concepção", "Aos 16 anos", "Aos 18 anos"]
+  },
+  {
+    "lesson": "Direito Civil e ECA",
+    "topic": "Personalidade x capacidade",
+    "question": "Ter direitos e obrigações, a partir do nascimento com vida, é:",
+    "answer": "Personalidade civil",
+    "wrongAnswers": ["Capacidade civil", "Maioridade civil", "Cidadania"]
+  },
+  {
+    "lesson": "Direito Civil e ECA",
+    "topic": "Personalidade x capacidade",
+    "question": "Poder exercer os direitos, de forma gradual, é:",
+    "answer": "Capacidade civil",
+    "wrongAnswers": ["Personalidade civil", "Maioridade civil", "Cidadania"]
+  },
+  {
+    "lesson": "Direito Civil e ECA",
+    "topic": "Faixas de capacidade",
+    "question": "Menores de 16 anos são:",
+    "answer": "Absolutamente incapazes (representados)"
+  },
+  {
+    "lesson": "Direito Civil e ECA",
+    "topic": "Faixas de capacidade",
+    "question": "Quem tem entre 16 e 18 anos é:",
+    "answer": "Relativamente incapaz (assistido)"
+  },
+  {
+    "lesson": "Direito Civil e ECA",
+    "topic": "Faixas de capacidade",
+    "question": "A partir dos 18 anos a pessoa é:",
+    "answer": "Plenamente capaz"
+  },
+  {
+    "lesson": "Direito Civil e ECA",
+    "topic": "ECA",
+    "question": "Em que ano o ECA entrou em vigor?",
+    "answer": "1990",
+    "wrongAnswers": ["1988", "2002", "2015"]
+  },
+  {
+    "lesson": "Direito Civil e ECA",
+    "topic": "ECA",
+    "question": "O ECA acabou com qual norma?",
+    "answer": "Código de Menores",
+    "wrongAnswers": ["Código Civil de 1916", "Código Penal", "Constituição de 1967"]
+  },
+  {
+    "lesson": "Direito Civil e ECA",
+    "topic": "ECA",
+    "question": "Com o ECA, a criança deixa de ser vista como criminosa e passa a ser:",
+    "answer": "Infratora",
+    "wrongAnswers": ["Ré", "Incapaz", "Tutelada"]
+  },
+  {
+    "lesson": "Direito Civil e ECA",
+    "topic": "ECA",
+    "question": "Com o ECA, sobre quem recai a responsabilização pela criança?",
+    "answer": "Família, sociedade e poder público",
+    "wrongAnswers": ["Somente a família", "Somente o Estado", "Somente a escola"]
+  },
+  {
+    "lesson": "Direito Civil e ECA",
+    "topic": "ECA Digital",
+    "question": "Qual é a ideia central do ECA Digital?",
+    "answer": "Ampliar o escopo do ECA para mitigar riscos no ambiente digital",
+    "wrongAnswers": ["Proibir crianças de usar a internet", "Substituir o ECA original", "Regular apenas jogos online"]
+  },
+  {
+    "lesson": "Direito Civil e ECA",
+    "topic": "ECA Digital",
+    "question": "O que é perfilamento?",
+    "answer": "Analisar o comportamento de alguém para criar um perfil único e direcionar anúncios",
+    "wrongAnswers": ["Criar um perfil falso em rede social", "Verificar a idade do usuário no cadastro", "Bloquear conteúdo impróprio para menores"]
+  },
+  {
+    "lesson": "Direito Empresarial",
+    "topic": "Conceito de empresário",
+    "question": "Pelo art. 966, empresário é quem exerce profissionalmente atividade econômica organizada para:",
+    "answer": "Produção ou circulação de bens ou de serviços",
+    "wrongAnswers": ["Arrecadação de tributos", "Prestação de serviço público", "Assistência social sem fins lucrativos"]
+  },
+  {
+    "lesson": "Direito Empresarial",
+    "topic": "Conceito de empresário",
+    "question": "Pelo art. 967, o que o empresário deve fazer antes de iniciar a atividade?",
+    "answer": "Inscrever-se no Registro Público de Empresas Mercantis",
+    "wrongAnswers": ["Contratar ao menos um funcionário", "Abrir uma conta bancária empresarial", "Ter um sócio"]
+  },
+  {
+    "lesson": "Direito Empresarial",
+    "topic": "Conceito de empresário",
+    "question": "Do ponto de vista jurídico, o que é indispensável para ser empresa?",
+    "answer": "Fim lucrativo",
+    "wrongAnswers": ["Ter sócios", "Ter funcionários", "Ter sede própria"]
+  },
+  {
+    "lesson": "Direito Empresarial",
+    "topic": "Quem pode ser empresário",
+    "question": "Quem pode ser empresário?",
+    "answer": "Quem tem capacidade civil e não tem impedimento legal",
+    "wrongAnswers": ["Qualquer pessoa a partir dos 16 anos", "Somente quem tem curso superior", "Somente quem já tem CNPJ"]
+  },
+  {
+    "lesson": "Direito Empresarial",
+    "topic": "Pessoa jurídica",
+    "question": "Pessoa jurídica é sinônimo de empresa?",
+    "answer": "Não, partidos, associações, ONGs e fundações também são PJ",
+    "wrongAnswers": ["Sim, toda PJ é uma empresa", "Sim, desde que tenha CNPJ", "Não, PJ é só o dono da empresa"]
+  },
+  {
+    "lesson": "Direito Empresarial",
+    "topic": "Abertura de empresa",
+    "question": "Qual é o primeiro passo para abrir uma empresa?",
+    "answer": "Registro na JUCESP",
+    "wrongAnswers": ["CNPJ", "Inscrição Estadual (IE)", "CCM"]
+  },
+  {
+    "lesson": "Direito Empresarial",
+    "topic": "Abertura de empresa",
+    "question": "Depois da JUCESP, qual é o próximo passo para abrir uma empresa?",
+    "answer": "CNPJ",
+    "wrongAnswers": ["INSS", "Inscrição Estadual (IE)", "CCM"]
+  },
+  {
+    "lesson": "Direito Empresarial",
+    "topic": "SLU",
+    "question": "A SLU (Sociedade Limitada Unipessoal) precisa de sócios?",
+    "answer": "Não",
+    "wrongAnswers": ["Sim, pelo menos um", "Sim, pelo menos dois", "Só se faturar acima de um limite"]
+  },
+  {
+    "lesson": "Direito Empresarial",
+    "topic": "SLU",
+    "question": "Qual é a razão social de uma SLU?",
+    "answer": "Nome da pessoa física + Limitada",
+    "wrongAnswers": ["Nome fantasia + MEI", "Número do CNPJ", "Nome da pessoa física + S.A."]
+  },
+  {
+    "lesson": "Direito Empresarial",
+    "topic": "SLU",
+    "question": "Quais são as desvantagens da SLU?",
+    "answer": "Mais difícil de abrir e mais difícil de fechar",
+    "wrongAnswers": ["Exige sócios e valor mínimo", "Não protege o patrimônio", "Tem limite máximo de capital"]
+  },
+  {
+    "lesson": "Direito Empresarial",
+    "topic": "Startups",
+    "question": "Qual a receita máxima anual de uma startup pelo marco legal?",
+    "answer": "Até R$ 16 milhões",
+    "wrongAnswers": ["Até R$ 81 mil", "Até R$ 360 mil", "Até R$ 4,8 milhões"]
+  },
+  {
+    "lesson": "Direito Empresarial",
+    "topic": "Startups",
+    "question": "Uma startup pode ter até quantos anos de inscrição no CNPJ?",
+    "answer": "Até 10 anos",
+    "wrongAnswers": ["Até 2 anos", "Até 5 anos", "Até 15 anos"]
+  },
+  {
+    "lesson": "Direito Empresarial",
+    "topic": "Startups",
+    "question": "Em qual regime especial a startup pode se enquadrar?",
+    "answer": "Inova Simples",
+    "wrongAnswers": ["Simples Nacional", "Lucro Presumido", "MEI"]
+  },
+  {
+    "lesson": "Contratos",
+    "topic": "Elementos do contrato",
+    "question": "O que um contrato deve ter?",
+    "answer": "Direitos e deveres, finalidade e preço",
+    "wrongAnswers": ["Assinatura em cartório, testemunhas e prazo", "Apenas preço e prazo", "Apenas direitos para quem paga"]
+  },
+  {
+    "lesson": "Contratos",
+    "topic": "Elementos do contrato",
+    "question": "O preço de um contrato precisa ser dinheiro?",
+    "answer": "Não, um item de troca também é preço",
+    "wrongAnswers": ["Sim, sempre em reais", "Sim, em qualquer moeda", "Não, contratos não têm preço"]
+  },
+  {
+    "lesson": "Contratos",
+    "topic": "Elementos do contrato",
+    "question": "Como deve ser o objeto de um contrato?",
+    "answer": "Possível e lícito",
+    "wrongAnswers": ["Caro e registrado", "Físico e visível", "Qualquer um, desde que as partes aceitem"]
+  },
+  {
+    "lesson": "Contratos",
+    "topic": "Princípios dos contratos",
+    "question": "Qual princípio parte da ideia de que todas as pessoas são boas?",
+    "answer": "Boa-fé"
+  },
+  {
+    "lesson": "Contratos",
+    "topic": "Princípios dos contratos",
+    "question": "Qual princípio do contrato é o que gera movimento?",
+    "answer": "Função social"
+  },
+  {
+    "lesson": "Contratos",
+    "topic": "Classificação dos contratos",
+    "question": "Compra e venda de imóvel, que exige forma escrita, é um contrato:",
+    "answer": "Solene (formal)"
+  },
+  {
+    "lesson": "Contratos",
+    "topic": "Classificação dos contratos",
+    "question": "Um contrato sem nada escrito é:",
+    "answer": "Não solene (informal)"
+  },
+  {
+    "lesson": "Contratos",
+    "topic": "Classificação dos contratos",
+    "question": "Você compra pipoca e o vendedor pede para outra pessoa te atender. Esse contrato é:",
+    "answer": "Impessoal"
+  },
+  {
+    "lesson": "Contratos",
+    "topic": "Classificação dos contratos",
+    "question": "Um contrato com o seu nome, em que você não pode ser substituído, é:",
+    "answer": "Personalíssimo"
+  },
+  {
+    "lesson": "Contratos",
+    "topic": "Contrato de estágio",
+    "question": "Como se classifica um contrato de estágio?",
+    "answer": "Plurilateral e personalíssimo",
+    "wrongAnswers": ["Bilateral e impessoal", "Unilateral e solene", "Gratuito e impessoal"]
+  },
+  {
+    "lesson": "Contratos",
+    "topic": "Trabalho x emprego",
+    "question": "O que a relação de emprego tem que a relação de trabalho não necessariamente tem?",
+    "answer": "Habitualidade e pessoalidade",
+    "wrongAnswers": ["Autonomia e eventualidade", "Gratuidade e impessoalidade", "Apenas contrato escrito"]
+  }
+]
