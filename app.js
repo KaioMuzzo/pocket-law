@@ -11,12 +11,13 @@ async function loadQuestions() {
 
 function showQuestion() {
     document.getElementById("next").classList.add("hidden");
-    document.getElementById("question").textContent = current.question;
 
     if (deck.length === 0) {
         deck = shuffle(questions);
     }
     const current = deck.pop();
+    document.getElementById("question").textContent = current.question;
+
     const wrong = shuffle(getWrongAnswers(current)).slice(0, 3);
     const options = shuffle([current.answer, ...wrong]);
 
@@ -59,6 +60,7 @@ function checkAnswer(clicked, correctAnswer) {
     const buttons = document.querySelectorAll("#options button");
 
     buttons.forEach(button => {
+        button.disabled = true;
         if (button.textContent === correctAnswer) {
             button.classList.replace("border-slate-300", "border-green-500");
             button.classList.add("bg-green-100");
