@@ -1,4 +1,5 @@
 let questions = [];
+let filtered = [];
 let deck = [];
 let correctCount = 0;
 let answeredCount = 0;
@@ -6,16 +7,52 @@ let answeredCount = 0;
 async function loadQuestions() {
     const response = await fetch("questions.json");
     questions = await response.json();
+    fillSelect("lesson-filter", "Seção", unique(questions.map(q => q.lesson)));
+    fillSelect("topic-filter", "Tópico", unique(questions.map(q => q.topic)));
+    applyFilter();
+}
+
+function unique(list) {
+    return [...new Set(list)];
+}
+
+function fillSelect(id, allLabel, values) {
+    const select = document.getElementById(id);
+    select.innerHTML = "";
+    [allLabel, ...values].forEach((value, index) => {
+        const option = document.createElement("option");
+        option.value = index === 0 ? "" : value;
+        option.textContent = value;
+        select.appendChild(option);
+    });
+}
+
+function applyFilter() {
+    const lesson = document.getElementById("lesson-filter").value;
+    const topic = document.getElementById("topic-filter").value;
+
+    filtered = questions.filter(q =>
+        (!lesson || q.lesson === lesson) && (!topic || q.topic === topic)
+    );
+    deck = [];
+    correctCount = 0;
+    answeredCount = 0;
+    updateScore();
     showQuestion();
+}
+
+function updateScore() {
+    document.getElementById("score").textContent = `Acertos: ${correctCount} de ${answeredCount}`;
 }
 
 function showQuestion() {
     document.getElementById("next").classList.add("hidden");
 
     if (deck.length === 0) {
-        deck = shuffle(questions);
+        deck = shuffle(filtered);
     }
     const current = deck.pop();
+    document.getElementById("topic").textContent = `${current.lesson} · ${current.topic}`;
     document.getElementById("question").textContent = current.question;
 
     const wrong = shuffle(getWrongAnswers(current)).slice(0, 3);
@@ -75,9 +112,16 @@ function checkAnswer(clicked, correctAnswer) {
     }
 
     answeredCount++;
-    document.getElementById("score").textContent = `Acertos: ${correctCount} de ${answeredCount}`;
+    updateScore();
     document.getElementById("next").classList.remove("hidden");
 }
 
 document.getElementById("next").addEventListener("click", showQuestion);
+document.getElementById("lesson-filter").addEventListener("change", event => {
+    const lesson = event.target.value;
+    const topics = questions.filter(q => !lesson || q.lesson === lesson).map(q => q.topic);
+    fillSelect("topic-filter", "Tópico", unique(topics));
+    applyFilter();
+});
+document.getElementById("topic-filter").addEventListener("change", applyFilter);
 loadQuestions();

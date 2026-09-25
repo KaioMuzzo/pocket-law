@@ -10,6 +10,7 @@ Built with plain HTML, JavaScript and Tailwind CSS. All questions live in a sing
 
 - Multiple choice questions with instant feedback (green for correct, red for wrong)
 - Score counter
+- Filter by lesson and topic to study one section of the exam at a time (changing the filter restarts the deck and score)
 - Question deck: every question appears once before any repeats
 - Wrong answers are generated automatically from related questions on the same topic
 

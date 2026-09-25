@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "pocket-law",
+      "runtimeExecutable": "php",
+      "runtimeArgs": ["-S", "localhost:8000"],
+      "port": 8000
+    }
+  ]
+}
